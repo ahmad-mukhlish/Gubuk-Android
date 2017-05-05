@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.jombloterhormat.android.kecualikuis.Skor">
+
+    <TextView
+        android:id="@+id/tulisanSkor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:fontFamily="monospace"
+        android:text="Skor Anda"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/skornya"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tulisanSkor"
+        android:layout_marginTop="20dp"
+        android:fontFamily="monospace"
+        android:text="Skor"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="30sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/skornya"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="30dp"
+        android:background="@color/colorPrimary"
+        android:onClick="klikPenjelasan"
+        android:padding="20dp"
+        android:text="Penjelasan"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+</RelativeLayout>

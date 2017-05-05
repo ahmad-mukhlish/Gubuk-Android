@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.jombloterhormat.android.kecualikuis.MainActivity">
+
+    <TextView
+        android:id="@+id/judul2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:fontFamily="monospace"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="35sp" />
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/judul2"
+        android:layout_margin="30dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:onClick="klikMulai"
+            android:text="Mulai"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:onClick="klikHelp"
+            android:text="Help?"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear"
+        android:layout_marginTop="40dp"
+        android:text="Ahmad Mukhlis Saputra"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/linearakun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nama"
+        android:layout_margin="30dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/klikfb"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:autoLink="web"
+            android:background="@color/colorPrimaryDark"
+            android:clickable="true"
+            android:cursorVisible="true"
+            android:linksClickable="true"
+            android:onClick="klikFb"
+            android:scaleType="centerInside"
+            android:src="@drawable/logofb" />
+
+        <ImageButton
+            android:id="@+id/klikgithub"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:autoLink="web"
+            android:background="@color/colorPrimaryDark"
+            android:clickable="true"
+            android:cursorVisible="true"
+            android:linksClickable="true"
+            android:onClick="klikGithub"
+            android:scaleType="centerInside"
+            android:src="@drawable/logogithub" />
+
+        <ImageButton
+            android:id="@+id/klikgplus"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:autoLink="web"
+            android:background="@color/colorPrimaryDark"
+            android:clickable="true"
+            android:cursorVisible="true"
+            android:linksClickable="true"
+            android:onClick="klikGplus"
+            android:scaleType="centerInside"
+            android:src="@drawable/logogplus" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
