@@ -20,7 +20,7 @@ public class SplashScreen extends AppCompatActivity
             public void run() {
                 startActivity(new Intent(SplashScreen.this,MainActivity.class));
                 //agar tidak kembali ke splash screen (melumpuhkan ingatan)
-                //finish() ;
+                finish() ;
             }
         },4000) ;
 
