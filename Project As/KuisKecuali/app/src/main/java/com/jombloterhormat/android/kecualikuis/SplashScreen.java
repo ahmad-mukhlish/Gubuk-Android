@@ -19,8 +19,8 @@ public class SplashScreen extends AppCompatActivity
             @Override
             public void run() {
                 startActivity(new Intent(SplashScreen.this,MainActivity.class));
-                //agar tidak kembali ke splash screen
-                finish() ;
+                //agar tidak kembali ke splash screen (melumpuhkan ingatan)
+                //finish() ;
             }
         },4000) ;
 

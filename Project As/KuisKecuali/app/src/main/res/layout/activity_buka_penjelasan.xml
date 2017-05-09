@@ -28,7 +28,8 @@
         android:backgroundTint="@android:color/white"
         android:hint="Ketikan jawaban disini (lower case)"
         android:textColor="@android:color/white"
-        android:textColorHint="@android:color/white" />
+        android:textColorHint="@android:color/white"
+        android:inputType="textPassword" />
 
     <Button
         android:layout_width="wrap_content"

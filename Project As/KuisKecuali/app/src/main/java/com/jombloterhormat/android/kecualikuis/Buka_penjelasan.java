@@ -9,7 +9,7 @@ import android.widget.Toast;
 
 public class Buka_penjelasan extends AppCompatActivity {
 
-    final String kunci = "jana" ;
+    final String kunci = "yahya" ;
     EditText answer;
 
     @Override

@@ -160,7 +160,7 @@ public class Soal extends AppCompatActivity implements RadioGroup.OnCheckedChang
         c[8] = "String";
         d[8] = "int";
         kunci[8] = "B";
-        toaster[8] = "Jana";
+        toaster[8] = "Yahya";
 
         soalnya[9] = "9. Berikut adalah kata kunci yang berhubungan dalam percabangan java, kecuali : ";
         a[9] = "if";
