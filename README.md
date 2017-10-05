@@ -1,3 +1,3 @@
 # Gubuk-Android
 
-Aplikasi - aplikasi sederhana seputar Android 
+##Aplikasi sederhana tentang quiz android
