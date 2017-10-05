@@ -1,3 +1,3 @@
 # Kecuali Quiz
 
-## Aplikasi sederhana tentang quiz android
+## Aplikasi sederhana tentang quiz seputar android
